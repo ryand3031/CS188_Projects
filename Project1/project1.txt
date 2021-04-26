@@ -1,0 +1,38 @@
+CS 188-3 Project 1
+Spring 2021
+Due 4/29 Thursday, 11:59PM on CCLE
+
+Your task will be to implement the function hashBlock(version, hashPrevBlock, hashMerkleRoot, epochTime, difficulty, nonce) in node.py.
+hashBlock will return True or False if the binary output from a call to the
+sha256 hash function has a number of leading zeros greater than or equal to
+the difficulty.
+hashBlock should also print the hash output and the number of leading zeros.
+An example output of a call to hashBlock is shown below:
+
+$ python3 node.py
+epochTime: 0b00000000000000000000000000000000000000000000000000
+000000000000000001100000011101111000000100111100
+SHA256 hash output: 0000011001111000110110011111000000111111000
+111101111010110101001011100110101001000001010110000100111011000
+111011101011011011000100001010100100101001001010101001110001111
+111010001111110000010101010000001100011101101110001111011000011
+010100011111111010000001
+Leading Zeroes: 5
+Difficulty: 2
+Mined block is valid: True
+
+Note that the output of calls to node.py can be True or False. As the
+epochTime is constantly changing, this input will be unique for each call
+to node.py, and therefore the hash output will be different each time, and
+may or may not meet our difficulty requirement. The output in the above
+example just happened to meet our difficulty of 2.
+Also, you have been given the helper function sha(blockHeader), which should
+be used to make calls to the sha256 function.
+Like in the homeworks, groups of 2-3 are allowed, but everyone must submit
+their own work, and team members must be specified. In this case, add a
+comment on the node.py file with your team members.
+1
+
+You must submit your file node.py to CCLE by Thursday, April 29th at
+11:59PM. Note that if the formatting is not exactly correct, you will not be
+deducted points, so long as all the information is there.
