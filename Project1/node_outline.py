@@ -1,3 +1,9 @@
+#CS188 Spring 2021
+#Team members:
+#Jeffrey Liu
+#Ryan Daly
+#Svetly Todorov
+
 import hashlib
 import asyncio
 import sys
