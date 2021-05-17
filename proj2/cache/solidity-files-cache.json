@@ -1,0 +1,37 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/home/ryand3031/Spring2021/CS188_Projects/proj2/contracts/Token.sol": {
+      "lastModificationDate": 1621217164743,
+      "contentHash": "7f666e93d6745f6eca4cccbcd338b5f2",
+      "sourceName": "contracts/Token.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [],
+      "artifacts": [
+        "Token"
+      ]
+    }
+  }
+}
